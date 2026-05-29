@@ -1199,6 +1199,8 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
 def main(argv: list[str] | None = None) -> int:
     try:
         return _main(argv)
+    except KeyboardInterrupt:
+        return 130
     except MixError as exc:
         print(str(exc), file=sys.stderr)
         return 1
