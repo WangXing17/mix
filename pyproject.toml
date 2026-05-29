@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mix"
+version = "0.1.0"
+description = "Multi-model switcher and protocol proxy"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+mix = "mix:main"
+
+[tool.setuptools]
+py-modules = ["mix", "proxy", "mix_config"]
