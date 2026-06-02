@@ -26,7 +26,7 @@ Claude Code、Codex CLI、任意 OpenAI-compatible 客户端都能直接对接�
 curl -fsSL https://raw.githubusercontent.com/USER/mix/main/install.sh | bash -s --
 ```
 
-**轻量** — 三个源文件（`mix.py` / `proxy.py` / `mix_config.py`），无 Node.js / 无 npm / 无外部服务。是 MMS (multi-model-switch) 的精简替代。
+**轻量** — 三个源文件（`mix.py` / `proxy.py` / `mix_config.py`），无 Node.js / 无 npm / 无外部服务。
 
 ## 使用
 
